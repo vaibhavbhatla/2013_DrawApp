@@ -1,0 +1,21 @@
+.tool-bar {
+    -fx-font-size: 14pt;
+
+}
+
+.segmented-button-bar .button {
+    -fx-background-radius: 0;
+    -fx-padding: 5px 15px 5px 15px;
+}
+ 
+.segmented-button-bar .button.first {
+    -fx-background-radius: 3 0 0 3, 2 0 0 2, 2 0 0 2;
+}
+ 
+.segmented-button-bar .button.last {
+    -fx-background-radius: 0 3 3 0, 0 2 2 0, 0 2 2 0;
+}
+
+.tool-bar .spacer {
+    -fx-padding: 0 5.417em 0 0;
+}
